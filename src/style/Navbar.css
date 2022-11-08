@@ -1,0 +1,98 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.headerNav {
+   background-image: linear-gradient(#966b6b,#704F4F, #472D2D);
+   /* padding-left: 5rem; */
+   width: 100%;
+}
+
+.title{
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: -1px; 
+    line-height: 1;
+}
+
+.wrapper{
+    position: flex;
+}
+
+/* .faIG:hover{
+    background-color: #FCAF45;
+    border-radius: 100px;
+}
+
+.faIG{
+    font-size:30px;
+    color: #D6E6F2;
+    padding-inline: 5px;
+    transition: all 1s ease-out;
+}
+
+.faWA:hover{
+    background-color: #25D366;
+    border-radius: 100px;
+    
+}
+
+.faWA{
+    font-size:30px;
+    color: #D6E6F2;
+    padding-inline: 5px;
+    transition: all 1s ease-out;
+} */
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: -1px; 
+    line-height: 1;
+}
+
+.sosmed {
+
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+
+.sosmed li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.sosmed li span {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px !important;
+    transition: 1.5s ease-out;
+}
+
+.sosmed li:hover span {
+    transition: .3s;
+}
+
+.sosmed li:nth-child(1):hover span {
+    background: #2C3456 !important;
+}
+
+.sosmed li:nth-child(2):hover span {
+    background: #25D366 !important;
+}
+
+.sosmed li:nth-child(3):hover span {
+    background: #CC296C !important;
+}

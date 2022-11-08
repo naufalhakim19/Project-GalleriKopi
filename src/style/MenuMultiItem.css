@@ -1,0 +1,33 @@
+.product{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.product h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #d3d3d3;
+}
+.product img {
+    height: 160px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.product h4 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.product p{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #757575;
+    font-weight: 100;
+    font-size: 18px;
+}
