@@ -1,7 +1,6 @@
 import "./style/App.css";
 import Nav from "./component/Nav";
 import HomePage from "./component/HomePage";
-import MenuMultiItem from "./component/MenuMultiItem";
 // import {useState, useEffect} from 'react'
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       </header>
       <body className="body">
         <HomePage />
-        <MenuMultiItem />
       </body>
     </div>
   );
