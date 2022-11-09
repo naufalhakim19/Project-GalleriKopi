@@ -16,6 +16,8 @@ import Gallery_photo3 from "../img/customer_working.jpg";
 import Gallery_photo4 from "../img/machine_coffee_and_figure.jpg";
 import Gallery_photo5 from "../img/share_blacktea_Friday.jpg";
 import Gallery_photo6 from "../img/secFloor.jpg";
+import Sosmed_logo1 from "../img/ig_logo.png";
+import Sosmed_logo2 from "../img/wa_logo.png";
 
 import "../style/Homepage.css";
 
@@ -241,7 +243,52 @@ function HomePage() {
         </div>
       </section>
 
-      <section id="contact"></section>
+      <section id="contact">
+        <div className="contact">
+          <div className="container-fluid2 cc py-3">
+            <h5 className="m-4 text1">GET IN TOUCH WITH US</h5>
+            <h1>CONTACT</h1>
+          </div>
+
+          <div className="container cc2">
+            <table className="tableContact">
+              <tr>
+                <td>
+                  <img src={Sosmed_logo1} alt=""></img>
+                </td>
+                <td>
+                  <img src={Sosmed_logo2} alt=""></img>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>Instagram</h2>
+                </td>
+                <td>
+                  <h2>WhatsApps</h2>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>
+                    <a href="https://www.instagram.com/gallerikopi/">
+                      @gallerikopi
+                    </a>
+                  </h5>
+                </td>
+                <td>
+                  <h5>
+                    <a href="https://wa.me/6282114121534?text=Hallo%2C%20Kami%20dari%20Galleri%20Kopi%20siap%20untuk%20melayani%20anda!">
+                      +6282114121534
+                    </a>
+                  </h5>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
       <br />
       <div className="footer">
         <label>© 2022 All right reserved.</label>
