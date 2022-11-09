@@ -10,6 +10,13 @@ import Menu2 from "../img/coffeMenu.jpg";
 import Menu3 from "../img/noncoffeeMenu.jpg";
 import Menu4 from "../img/blackteaMenu.jpg";
 import logo_about from "../img/logo_about.png";
+import Gallery_photo1 from "../img/behind_bar.jpg";
+import Gallery_photo2 from "../img/blacktea_hand.jpg";
+import Gallery_photo3 from "../img/customer_working.jpg";
+import Gallery_photo4 from "../img/machine_coffee_and_figure.jpg";
+import Gallery_photo5 from "../img/share_blacktea_Friday.jpg";
+import Gallery_photo6 from "../img/secFloor.jpg";
+
 import "../style/Homepage.css";
 
 function HomePage() {
@@ -34,7 +41,7 @@ function HomePage() {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <Carousel className="carousel" fade>
         <Carousel.Item>
           <img
@@ -152,9 +159,93 @@ function HomePage() {
         </div>
       </section>
 
-      <h1>asd</h1>
-      <h1>asd</h1>
-      <h1>asd</h1>
+      <section id="maps">
+        <div className="container visitUs py-5">
+          <h5>WE ARE DELIGHTED WHEN YOU VISIT</h5>
+          <h1>VISIT US</h1>
+          <hr />
+        </div>
+        <div className="frame">
+          <iframe src="https://maps.google.com/maps?q=galleri%20kopi%20jakasetia&t=&z=19&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+      </section>
+
+      <section id="galleryUS">
+        <div className="gallery py-5">
+          <div className="galleryTitle">
+            <h5>THAT MOMENT MEANT A LOT TO US</h5>
+            <h1>GALLERY</h1>
+          </div>
+        </div>
+        <div className="container py-5">
+          <table className="galleryTable">
+            <tr>
+              <td>
+                <img
+                  src={Gallery_photo1}
+                  width="300px"
+                  height="300px"
+                  className="image"
+                ></img>
+                <h5>BAR</h5>
+              </td>
+              <td>
+                <img
+                  src={Gallery_photo2}
+                  width="300px"
+                  height="300px"
+                  className="image"
+                ></img>
+                <h5>BLACKTEA</h5>
+              </td>
+              <td>
+                <img
+                  src={Gallery_photo3}
+                  width="300px"
+                  height="300px"
+                  className="image"
+                ></img>
+                <h5>WORKING SPACE</h5>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src={Gallery_photo4}
+                  width="300px"
+                  height="300px"
+                  className="image"
+                ></img>
+                <h5>MACHINE COFFEE</h5>
+              </td>
+              <td>
+                <img
+                  src={Gallery_photo5}
+                  width="300px"
+                  height="300px"
+                  className="image"
+                ></img>
+                <h5>SHARE BLACKTEA ON FRIDAY</h5>
+              </td>
+              <td>
+                <img
+                  src={Gallery_photo6}
+                  width="300px"
+                  height="300px"
+                  className="image"
+                ></img>
+                <h5>SECOND FLOOR</h5>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="contact"></section>
+      <br />
+      <div className="footer">
+        <label>© 2022 All right reserved.</label>
+      </div>
     </div>
   );
 }

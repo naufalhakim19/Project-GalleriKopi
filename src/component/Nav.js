@@ -13,8 +13,8 @@ function Navi() {
             {" "}
             <h1 className="title">Galleri Kopi</h1>
           </Navbar.Brand>
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
+          <ul className="navbar-nav mr-auto navigation">
+            <li className="nav-item active ">
               <a className="nav-link" href="#">
                 <h4>Home</h4>
               </a>
@@ -27,6 +27,11 @@ function Navi() {
             <li className="nav-item active">
               <a className="nav-link" href="#">
                 <h4>About</h4>
+              </a>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                <h4>Maps</h4>
               </a>
             </li>
             <li className="nav-item active">

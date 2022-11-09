@@ -1,62 +1,40 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 .headerNav {
-   background-image: linear-gradient(#966b6b,#704F4F, #472D2D);
-   /* padding-left: 5rem; */
+   background-image: linear-gradient(white,rgb(236, 236, 236), rgb(204, 204, 204));
+   
    width: 100%;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
 }
 
 .title{
-    color: white;
+    color: #966b6b;
     font-family: 'Helvetica Neue', sans-serif; 
     font-weight: 400; 
     letter-spacing: -1px; 
     line-height: 1;
 }
 
-.wrapper{
-    position: flex;
-}
-
-/* .faIG:hover{
-    background-color: #FCAF45;
-    border-radius: 100px;
-}
-
-.faIG{
-    font-size:30px;
-    color: #D6E6F2;
-    padding-inline: 5px;
-    transition: all 1s ease-out;
-}
-
-.faWA:hover{
-    background-color: #25D366;
-    border-radius: 100px;
-    
-}
-
-.faWA{
-    font-size:30px;
-    color: #D6E6F2;
-    padding-inline: 5px;
-    transition: all 1s ease-out;
-} */
 
 a {
     text-decoration: none;
 }
 
 h4 {
-    color: white;
+    color: #966b6b;
     font-family: 'Helvetica Neue', sans-serif; 
-    font-weight: 400; 
+    font-weight: 700; 
     letter-spacing: -1px; 
     line-height: 1;
 }
 
-.sosmed {
+.navigation a :hover{
+    color: rgb(218, 216, 216);
+    transition: .3s;
+    
+}
 
+.sosmed {
     display: flex;
     padding-top: 0.5rem;
 }
@@ -76,12 +54,13 @@ h4 {
     display: flex !important;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #966b6b;
     font-size: 25px !important;
     transition: 1.5s ease-out;
 }
 
 .sosmed li:hover span {
+    color: white;
     transition: .3s;
 }
 
