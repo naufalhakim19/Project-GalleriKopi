@@ -250,8 +250,8 @@ function HomePage() {
             <h1>CONTACT</h1>
           </div>
 
-          <div className="container cc2">
-            <table className="tableContact">
+          <div className="cc2">
+            {/* <table className="tableContact">
               <tr>
                 <td>
                   <img src={Sosmed_logo1} alt=""></img>
@@ -284,7 +284,24 @@ function HomePage() {
                   </h5>
                 </td>
               </tr>
-            </table>
+            </table> */}
+            <ul>
+              <li>
+                <span>
+                  <img src={Sosmed_logo1} alt=""></img>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src={Sosmed_logo2} alt=""></img>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src={Sosmed_logo2} alt=""></img>
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

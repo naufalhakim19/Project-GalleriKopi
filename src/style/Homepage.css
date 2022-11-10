@@ -198,15 +198,18 @@
     height: auto;
 }
 
-.tableContact {
-
-}
-
 .cc{
     background-color: #C68B59;
 }
 
-.cc2{
-    
+.cc2 ul li{
+    padding-top: 2rem;
+    display:inline-block;
+    width: 20%
 
+}
+
+.footer{
+    background-color: #757575;
+    color: white;
 }
