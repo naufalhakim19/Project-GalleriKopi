@@ -1,24 +1,16 @@
 import Carousel from "react-bootstrap/Carousel";
-import carousel1 from "../img/carousel_1.png";
-import carousel2 from "../img/carousel_2.png";
-import carousel3 from "../img/carousel_3.png";
 import React from "react";
 import Carousel2 from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Menu1 from "../img/ourBeans.jpg";
-import Menu2 from "../img/coffeMenu.jpg";
-import Menu3 from "../img/noncoffeeMenu.jpg";
-import Menu4 from "../img/blackteaMenu.jpg";
-import logo_about from "../img/logo_about.png";
-import Gallery_photo1 from "../img/behind_bar.jpg";
-import Gallery_photo2 from "../img/blacktea_hand.jpg";
-import Gallery_photo3 from "../img/customer_working.jpg";
-import Gallery_photo4 from "../img/machine_coffee_and_figure.jpg";
-import Gallery_photo5 from "../img/share_blacktea_Friday.jpg";
-import Gallery_photo6 from "../img/secFloor.jpg";
-import Sosmed_logo1 from "../img/ig_logo.png";
-import Sosmed_logo2 from "../img/wa_logo.png";
-
+import {
+  blackteaMenu,
+  carousel1,
+  carousel2,
+  carousel3,
+  coffeMenu,
+  noncoffeeMenu,
+  ourBeans,
+} from "../img/index";
 import "../style/Homepage.css";
 
 function HomePage() {
@@ -43,7 +35,7 @@ function HomePage() {
   };
 
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="home">
       <Carousel className="carousel" fade>
         <Carousel.Item>
           <img
@@ -76,11 +68,10 @@ function HomePage() {
 
             <hr className="py-2"></hr>
           </div>
-
           <div className="product">
             <Carousel2 responsive={responsive}>
               <div>
-                <img src={Menu1}></img>
+                <img src={ourBeans}></img>
                 <h4>MOCKTAIL</h4>
                 <p>
                   {" "}
@@ -91,7 +82,7 @@ function HomePage() {
                 </p>
               </div>
               <div>
-                <img src={Menu2}></img>
+                <img src={coffeMenu}></img>
                 <h4>COFFEE</h4>
                 <p>
                   {" "}
@@ -105,7 +96,7 @@ function HomePage() {
                 </p>
               </div>
               <div>
-                <img src={Menu3}></img>
+                <img src={noncoffeeMenu}></img>
                 <h4>NON COFFEE</h4>
                 <p>
                   {" "}
@@ -114,7 +105,7 @@ function HomePage() {
                 </p>
               </div>
               <div>
-                <img src={Menu4}></img>
+                <img src={blackteaMenu}></img>
                 <h4>TEA</h4>
                 <p>
                   {" "}
@@ -123,7 +114,7 @@ function HomePage() {
                 </p>
               </div>
               <div>
-                <img src={Menu1}></img>
+                <img src={ourBeans}></img>
                 <h4>OUR BEANS</h4>
                 <p>
                   {" "}
@@ -137,7 +128,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section id="About">
+      {/* <section id="About">
         <div className="container-fluid">
           <div className="container p-5">
             <div className="row">
@@ -159,9 +150,9 @@ function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="maps">
+      {/* <section id="maps">
         <div className="container visitUs py-5">
           <h5>WE ARE DELIGHTED WHEN YOU VISIT</h5>
           <h1>VISIT US</h1>
@@ -170,9 +161,9 @@ function HomePage() {
         <div className="frame">
           <iframe src="https://maps.google.com/maps?q=galleri%20kopi%20jakasetia&t=&z=19&ie=UTF8&iwloc=&output=embed"></iframe>
         </div>
-      </section>
+      </section> */}
 
-      <section id="galleryUS">
+      {/* <section id="galleryUS">
         <div className="gallery py-5">
           <div className="galleryTitle">
             <h5>THAT MOMENT MEANT A LOT TO US</h5>
@@ -184,7 +175,7 @@ function HomePage() {
             <tr>
               <td>
                 <img
-                  src={Gallery_photo1}
+                  src={carousel1}
                   width="300px"
                   height="300px"
                   className="image"
@@ -193,7 +184,7 @@ function HomePage() {
               </td>
               <td>
                 <img
-                  src={Gallery_photo2}
+                  src={carousel1}
                   width="300px"
                   height="300px"
                   className="image"
@@ -202,7 +193,7 @@ function HomePage() {
               </td>
               <td>
                 <img
-                  src={Gallery_photo3}
+                  src={carousel1}
                   width="300px"
                   height="300px"
                   className="image"
@@ -213,7 +204,7 @@ function HomePage() {
             <tr>
               <td>
                 <img
-                  src={Gallery_photo4}
+                  src={carousel1}
                   width="300px"
                   height="300px"
                   className="image"
@@ -222,7 +213,7 @@ function HomePage() {
               </td>
               <td>
                 <img
-                  src={Gallery_photo5}
+                  src={carousel1}
                   width="300px"
                   height="300px"
                   className="image"
@@ -231,7 +222,7 @@ function HomePage() {
               </td>
               <td>
                 <img
-                  src={Gallery_photo6}
+                  src={carousel1}
                   width="300px"
                   height="300px"
                   className="image"
@@ -241,75 +232,36 @@ function HomePage() {
             </tr>
           </table>
         </div>
-      </section>
+      </section> */}
 
-      <section id="contact">
+      {/* <section id="contact">
         <div className="contact">
           <div className="container-fluid2 cc py-3">
             <h5 className="m-4 text1">GET IN TOUCH WITH US</h5>
             <h1>CONTACT</h1>
-          </div>
 
-          <div className="cc2">
-            {/* <table className="tableContact">
-              <tr>
-                <td>
-                  <img src={Sosmed_logo1} alt=""></img>
-                </td>
-                <td>
-                  <img src={Sosmed_logo2} alt=""></img>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h2>Instagram</h2>
-                </td>
-                <td>
-                  <h2>WhatsApps</h2>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>
-                    <a href="https://www.instagram.com/gallerikopi/">
-                      @gallerikopi
-                    </a>
-                  </h5>
-                </td>
-                <td>
-                  <h5>
-                    <a href="https://wa.me/6282114121534?text=Hallo%2C%20Kami%20dari%20Galleri%20Kopi%20siap%20untuk%20melayani%20anda!">
-                      +6282114121534
-                    </a>
-                  </h5>
-                </td>
-              </tr>
-            </table> */}
-            <ul>
-              <li>
-                <span>
-                  <img src={Sosmed_logo1} alt=""></img>
-                </span>
-              </li>
-              <li>
-                <span>
-                  <img src={Sosmed_logo2} alt=""></img>
-                </span>
-              </li>
-              <li>
-                <span>
-                  <img src={Sosmed_logo2} alt=""></img>
-                </span>
-              </li>
-            </ul>
+            <div className="cc2">
+              <ul>
+                <li>
+                  <span className="fa fa-facebook"></span>
+                  <h3>asd</h3>
+                </li>
+                <li>
+                  <span className="fa fa-whatsapp"></span>
+                  <h3>+6282114121534</h3>
+                </li>
+                <li>
+                  <span className="fa fa-instagram"></span>
+                  <h3>@gallerikopi</h3>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
-
-      <br />
       <div className="footer">
         <label>© 2022 All right reserved.</label>
-      </div>
+      </div> */}
     </div>
   );
 }

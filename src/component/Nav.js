@@ -2,9 +2,18 @@ import "../style/Navbar.css";
 // import React, {useState} from 'react'
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
+// import About from "./About";
+// import HomePage from "./HomePage";
+// import Contact from "./Contact";
+// import Gallery from "./Gallery";
+// import HomePage from "./HomePage";
+// import Maps from "./Maps";
+// import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+//import { useState } from "react";
 // import Nav from "react-bootstrap/Nav";
 
-function Navi() {
+const Navi = () => {
   return (
     <div>
       <Navbar className="headerNav fixed-top">
@@ -15,10 +24,19 @@ function Navi() {
           </Navbar.Brand>
           <ul className="navbar-nav mr-auto navigation">
             <li className="nav-item active ">
-              <a className="nav-link" href="#">
-                <h4>Home</h4>
+              <a className="nav-link">
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <h4>Home</h4>
+                </Link>
               </a>
             </li>
+
             <li className="nav-item active">
               <a className="nav-link" href="#">
                 <h4>Menu</h4>
@@ -67,6 +85,6 @@ function Navi() {
       </Navbar>
     </div>
   );
-}
+};
 
 export default Navi;
