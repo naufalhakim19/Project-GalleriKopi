@@ -1,14 +1,20 @@
 .App {
   text-align: center;
   background-color: black;
-  
+  scroll-behavior: smooth;
 }
 
-.header{
+.header {
   background-color: aqua;
 }
 
-.body{
+.body {
   background-color: #fff1f1;
   padding-top: 70px;
 }
+
+/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad portrait style here */

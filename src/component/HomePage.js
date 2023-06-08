@@ -60,7 +60,7 @@ function HomePage() {
           />
         </Carousel.Item>
       </Carousel>
-      <section id="menu">
+      <section className="menu">
         <div className="container">
           <div className="OurMenu py-5">
             <h5> WE ARE SERVED WHOLEHEARTEDLY </h5>

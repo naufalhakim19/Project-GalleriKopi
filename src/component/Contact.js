@@ -11,10 +11,10 @@ function Contact() {
 
             <div className="cc2">
               <ul>
-                <li>
+                {/* <li>
                   <span className="fa fa-facebook"></span>
                   <h3>asd</h3>
-                </li>
+                </li> */}
                 <li>
                   <span className="fa fa-whatsapp"></span>
                   <h3>+6282114121534</h3>

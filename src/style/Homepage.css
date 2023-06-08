@@ -1,8 +1,8 @@
-.wrapper{
-    background-color: white;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
+.wrapper {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
 }
 
 /* .TextCentered{
@@ -12,213 +12,212 @@
     left: 50%;
     transform: translate(-50%, -50%);
 } */
-    
-.carousel{
-    padding-bottom: 1rem;
+
+.carousel {
+  padding-bottom: 1rem;
 }
 
-.OurMenu{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: #C68B59;
-    font-size: 0.9rem;
-    text-align: center;
+.OurMenu {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #c68b59;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .OurMenu h1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: #d3d3d3;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #d3d3d3;
 }
 
 .OurMenu h4 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: black;
 }
 
-.product{
-    font-weight: bold;
-    font-size: 0.9rem;
+.product {
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
-.product h1{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: #d3d3d3;
+.product h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #d3d3d3;
 }
 .product img {
-    height: 160px;
-    width: auto;
-    border-radius: 20px;
+  height: 160px;
+  width: auto;
+  border-radius: 20px;
 }
 
 .product h4 {
-    padding-top: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: black;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: black;
 }
 
-.product p{
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: #757575;
-    font-weight: 100;
-    font-size: 18px;
+.product p {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #757575;
+  font-weight: 100;
+  font-size: 18px;
 }
 
-.product b{
-    color: #C68B59;
+.product b {
+  color: #c68b59;
 }
 
-.container-fluid{
-    background-color: #D3D3D3;
-    color: #757575;
-    padding-left: 10rem;
+.container-fluid {
+  background-color: #d3d3d3;
+  color: #757575;
+  padding-left: 10rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .leftabout {
-    text-align: left;
-    font-size: 18px;
+  text-align: left;
+  font-size: 18px;
 }
 
 .rightabout img {
-    width: auto;
-    height: 250px;
+  width: auto;
+  height: 250px;
 }
 
-.visitUs{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #C68B59;
-    font-size: 0.9rem;
-    text-align: center;
+.visitUs {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #c68b59;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-.visitUs h1{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: #d3d3d3;
+.visitUs h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #d3d3d3;
 }
 
-.frame{
-    width: 100%;
-    height: 100%;
-    position: static;
-    padding-bottom: 3rem;
+.frame {
+  width: 100%;
+  height: 100%;
+  position: static;
+  padding-bottom: 3rem;
 }
 
-.frame iframe{
-    
-    overflow:hidden;
-    background:none!important;
-    height: 720px;
-    width: 1366px;
+.frame iframe {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 720px;
 }
-
 
 .galleryTitle {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #C68B59;
-    font-size: 0.9rem;
-    text-align: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #c68b59;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-.galleryTitle h1{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #757575;
-    font-weight: 550;
+.galleryTitle h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #757575;
+  font-weight: 550;
 }
 
-.gallery{
-    background-color: #D3D3D3;
-    color: #d3d3d3;
+.gallery {
+  background-color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .galleryTable .image {
-    opacity: 0.7;
-    transition: .5s ease;
-    backface-visibility: hidden;
+  opacity: 0.7;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 .galleryTable .image:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
-.galleryTable td{
-    padding-top: 2rem;
+.galleryTable td {
+  padding-top: 2rem;
 }
 
 .galleryTable img {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
-.galleryTable{
-    margin-right: auto;
-    margin-left: auto;
-    height: 100%;
-    width: 100%;
+.galleryTable {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .contact h1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
 }
 
 .contact h3 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: bolder; */
+  font-size: 20px;
+  color: white;
 }
 
 .contact .text1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 0.9rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 0.9rem;
 }
 
 .contact h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #d3d3d3;
-    font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d3d3d3;
+  font-size: 1.5rem;
 }
 
-
-.cc{
-    background-color: #C68B59;
+.cc {
+  background-color: #c68b59;
 }
 
-.cc2 span{
-    font-size: 100px !important;
-    color: white;
-    padding-bottom: 1rem;
+.cc2 span {
+  font-size: 100px !important;
+  color: white;
+  padding-bottom: 1rem;
 }
 
-.cc2 ul li{
-    padding-top: 2rem;
-    display:inline-block;
-    width: 20%;
+.cc2 ul li {
+  padding-top: 2rem;
+  display: inline-block;
+  width: 20%;
 }
 
-
-.footer{
-    background-color: #757575;
-    color: white;
+.footer {
+  background-color: #757575;
+  color: white;
 }
