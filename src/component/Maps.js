@@ -9,7 +9,7 @@ function Maps() {
         <hr />
       </div>
       <div className="frame">
-        <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=galleri kopi&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=galleri%20kopi+(Galleri%20Kopi)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
       </div>
     </div>
   );
